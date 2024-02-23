@@ -1,0 +1,241 @@
+/*Universal Style*/
+* {
+    background-color: #A7EDE7;
+    margin: 0px;
+    font-family: Raleway, sans-serif;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: #5822a2;
+    overflow-y: auto;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: #5822a2;
+}
+
+li {
+    background-color: #5822a2;
+    display: inline;
+    text-align: center;
+    padding: 0px 40px;
+    color: #A7EDE7;
+    font-weight: 450;
+}
+
+nav a {
+    background-color: #5822a2;
+    text-decoration: none;
+    color: #A7EDE7;
+}
+
+h1 {
+    font-family: Finlandica, Raleway, sans-serif;
+    font-size: 60px;
+    letter-spacing: 1.4px;
+    text-align: center;
+    padding: 3%;
+    border-bottom: 1px solid #5822a2;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: Finlandica, Raleway, sans-serif;
+    letter-spacing: 1.3px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.3;
+}
+
+/*footer {
+    box-sizing: border-box;
+    background-color: #5822a2;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}*/
+
+/*Colour Section Style*/
+
+.colours {
+    margin-top: 30px;
+}
+
+.colour1 {
+    margin-top: 20px;
+    background-color: #5822a2;
+    height: auto;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.colour2 {
+    background-color: #9681EB;
+    height: auto;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.colour3 {
+    background-color: #45CFDD;
+    height: auto;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.colour4 {
+    background-color: #A7EDE7;
+    height: auto;
+    color: black;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #5822a2;
+}
+
+/* Font Section Style*/
+
+.fonts {
+    margin-top: 30px;
+}
+
+.font-example {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.font1 {
+    font-family: Finlandica;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.font1p {
+    font-family: Finlandica;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.font2 {
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.font2p {
+    font-family: Raleway;
+    margin-bottom: 20px;
+    ;
+}
+
+.font3 {
+    font-family: 'Protest Revolution';
+    font-weight: bold;
+}
+
+.font3p {
+    font-family: 'Protest Revolution';
+    margin-bottom: 20px;
+}
+
+/* Side Section Style*/
+
+.side {
+    margin-top: 30px;
+}
+
+.side-section {
+    float: left;
+    padding: 3%;
+    background-color: #9681EB;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.side-section-header {
+    background-color: #9681EB;
+    font-family: 'Protest Revolution';
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 4%;
+}
+
+.side-paragraph {
+    background-color: #9681EB;
+}
+
+.buttons {
+    padding: 1%;
+    box-sizing: border-box;
+    border: 1px solid #5822a2;
+    position: absolute;
+    width: 50%;
+    right: 0%;
+}
+
+.button-example {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.button-example a {
+    font-family: 'Protest Revolution';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 5%;
+    color: black;
+    text-decoration: none;
+    background-color: #45CFDD;
+    border: 15px solid #45CFDD;
+    box-shadow: 2px 2px #45CFDD, 3px 3px #9681EB, 3px 3px #5822a2;
+}
+
+.button-example a:hover {
+    background-color: #9681EB;
+    border: 15px solid #9681EB;
+    box-shadow: none;
+}
+
+.button-example a:active {
+    background-color: #5822a2;
+    border: 15px solid #5822a2;
+    margin-top: 7px;
+    box-shadow: none;
+}
+
+.buttons-paragraph {
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
